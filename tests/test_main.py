@@ -4,7 +4,7 @@ import inspect
 import pytest
 
 import sys
-sys.path.append('app')
+sys.path.append('../app')
 
 from app import main
 from app.cafe import Cafe
