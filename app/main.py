@@ -1,4 +1,4 @@
-from app.errors import VaccineError, NotWearingMaskError
+from .errors import VaccineError, NotWearingMaskError
 
 
 def go_to_cafe(friends: list, cafe: str) -> str:
